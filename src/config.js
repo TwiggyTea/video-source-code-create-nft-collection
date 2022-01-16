@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "goldSquare";
+const description = "You have to get lucky.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -15,7 +15,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x4344CA26730aAfdf485169B7ebB3c130869b3480",
       share: 100,
     },
   ],
@@ -83,7 +83,7 @@ const background = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://discord.gg/fHnMy2p7nx", // Replace with your website or remove this line if you do not have one.
 };
 
 const rarityDelimiter = "#";
