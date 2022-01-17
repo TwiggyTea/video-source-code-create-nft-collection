@@ -3,9 +3,9 @@ const path = require("path");
 const basePath = process.cwd();
 const fs = require("fs");
 
-const AUTH = 'YOUR API KEY HERE';
-const CONTRACT_ADDRESS = 'YOUR CONTRACT ADDRESS HERE';
-const MINT_TO_ADDRESS = 'YOUR WALLET ADDRESS HERE';
+const AUTH = 'bbb5abab-cffb-4298-b92d-574bdd20d813'; // IF ERROR 403 REPLACE WITH API KEY.
+const CONTRACT_ADDRESS = '0xdc60f56d4d8421bd2c05d4c19e23ad56aa57d42e';
+const MINT_TO_ADDRESS = '0x4344CA26730aAfdf485169B7ebB3c130869b3480';
 const CHAIN = 'rinkeby';
 const TIMEOUT = 1000; // Milliseconds. This a timeout for errors only. If there is an error, it will wait then try again. 5000 = 5 seconds.
 
