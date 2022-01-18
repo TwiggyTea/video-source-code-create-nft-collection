@@ -3,9 +3,9 @@ const path = require("path");
 const basePath = process.cwd();
 const fs = require("fs");
 
-const AUTH = 'YOUR API KEY HERE';
-const CONTRACT_ADDRESS = 'YOUR CONTRACT ADDRESS HERE';
-const ACCOUNT_ADDRESS = 'METAMASK ACCOUNT THAT MINTED NFTs';
+const AUTH = API_KEY;
+const CONTRACT_ADDRESS = '0xb4041b4375b06f15f5d1f01d4676550f2c35e1c2';
+const ACCOUNT_ADDRESS = '0x4344CA26730aAfdf485169B7ebB3c130869b3480';
 const CHAIN = 'rinkeby'; // Test: rinkeby, Real: polygon
 const TIMEOUT = 1000; // Milliseconds. This a timeout for errors only. If there is an error, it will wait then try again. 5000 = 5 seconds.
 const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.

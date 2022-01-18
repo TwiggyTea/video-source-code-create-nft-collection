@@ -4,7 +4,7 @@ const basePath = process.cwd();
 const fs = require("fs");
 const readDir = `${basePath}/build/genericJson`; // change this directory if you are uploading generic images first in order to do a reveal.
 
-const AUTH = process.env.API_KEY; // IF ERROR 403 REPLACE WITH API KEY.
+const AUTH = API_KEY; // IF ERROR 403 REPLACE WITH API KEY.
 const TIMEOUT = 5000; // Milliseconds. Extend this if needed to wait for each upload. 1000 = 1 second.
 
 const allMetadata = [];

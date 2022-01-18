@@ -82,7 +82,7 @@ const background = {
 };
 
 const extraMetadata = {
-  external_url: "https://discord.gg/fHnMy2p7nx", // Replace with your website or remove this line if you do not have one.
+  external_url: "goldsquare.io", // Replace with your website or remove this line if you do not have one.
 };
 
 const rarityDelimiter = "#";
